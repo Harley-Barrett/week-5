@@ -3,9 +3,12 @@
 properties and Values
 */
 
-#box-1 {
+.div-heading-top {
     color: white;
     background-color: purple;
+}
+
+#box-1 {
     text-align: center;
     padding-left: 100px;
     padding-right: 100px;
@@ -13,33 +16,64 @@ properties and Values
     padding-bottom: 10px;
 }
 
-#box-2 {
+
+
+.div-heading-left {
     color: red;
     background-color: black;
+    height: 608px;
+}
+
+#box-2 {
     padding: 15px;
+    width: 450px;
 }
 
-#box-3 {
+
+
+.div-heading-right {
     color: rgb(0, 26, 255);
-    background-color: chocolate;
-    padding-top: 15px;
+    background-color: rgb(255, 106, 0);
+    position: relative;
+    left: 480px;
+    top: -638px;
 }
 
-#sub-box-3{
+.div-heading-right > .subsection {
     color: black;
     background-color: rgb(255, 121, 143);
+}
+
+
+#box-3 {
+    padding: 15px;
+    width: 450px;
+}
+
+
+
+#sub-box-3 {
     padding: 15px;
     width: 350px;
 }
 
-#box-4 {
+
+
+.div-heading-bottom {
     color: rgb(255, 0, 0);
     background-color: rgb(7, 0, 49);
+    position: relative;
+    top: -645px;
+}
+
+#box-4 {
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 10px;
     padding-bottom: 10px;
+    text-align: center;
 }
+
 
 
 #image-for-box-two {
